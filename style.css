@@ -207,7 +207,7 @@ p{
 span{
     font-size: 20px;
     letter-spacing: 2;
-    color:#373737
+    color:#373737;
 }
 
 .cards .card[class*="element"]{
@@ -290,8 +290,6 @@ span{
     background-color: #424242;
     align-items: center;
     justify-content: center;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
 }
 
 .footer{
@@ -328,8 +326,9 @@ span{
 }
 
 .footer-copy h4{
-    color:#000;
+    color: rgb(0,144,255);
     letter-spacing: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
