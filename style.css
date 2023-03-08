@@ -133,28 +133,9 @@ p{
     margin-left: 10px;
 }
 
-.galeria-container{
-    width: 100%;
-    padding: 100px;
-    margin-left:15%;
-    text-align: center;
-}
-
-.galeria{
-    text-align: center;
-    width: 60%;
-    display: flex;
-    overflow-y: auto;
-}
-
-.card{
-    margin-right: 10px;
-}
-
-.card img{
-    width: 200px;
-    object-fit: cover;
-    height: 200px;
+.carousel-item{
+    padding: 70px;
+    height: 40rem;
 }
 
 #about{
@@ -335,11 +316,6 @@ p{
 
     .header-img img{
         width: 250px;
-    }
-
-    .galeria-container{
-        width: 100%;
-        margin-left: 25px;
     }
 
     .about-txt{
