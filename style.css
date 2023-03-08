@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: yellow;
+    background: yellow;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -107,6 +107,7 @@ img{
 .header-txt{
     width: 50%;
     padding-right: 100px;
+    margin-top: 15px;
     letter-spacing: .05;
     line-height: 2;
     font-size: 18px;
@@ -117,7 +118,7 @@ img{
     font-size: 120px;
     line-height: 130px;
     color: rgb(0,144,255);
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 p{
@@ -130,12 +131,7 @@ p{
     position: sticky;
     top: 0;
     float: left;
-    margin-left: 10px;
-}
-
-.carousel-item{
-    padding: 70px;
-    height: 40rem;
+    margin-left: 5px;
 }
 
 #about{
@@ -148,15 +144,16 @@ p{
 .about-txt h2{
     font-size: 30px;
     color: #373737;
-    margin-top: 35px;
     margin-bottom: 35px;
     text-align: center;
+    justify-content: center;
 }
 
 .about-txt p{
     box-sizing: border-box;
     display: flex;
     text-align: center;
+    justify-content: center;
     padding: 50px;
 }
 
@@ -178,14 +175,11 @@ p{
 .about-txt .cuadro{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #a3a3a3;
     height: 300px;
     width: 50%;
     border-radius: 25px;
-}
-
-.cuadro p{
-    margin-left: auto;
 }
 
 .form{
@@ -206,7 +200,6 @@ p{
 
 .redes footer{
     display: flex;
-    background-color: #424242;
     align-items: center;
     justify-content: center;
 }
@@ -239,13 +232,12 @@ p{
 }
 
 .footer-copy{
-    background-color: #424242;
     padding: 25px 0;
     text-align: center;
 }
 
 .footer-copy h4{
-    color: rgb(0,144,255);
+    color: #3f3f3f;
     letter-spacing: 1;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -326,15 +318,13 @@ p{
     .cuadro-container{
         width: 100%;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
     .cuadro ul li{
         width: 100%;
-        font-size: 12px;
+        font-size: 10px;
     }
-
-    
 
     h2{
         font-size: 70px;
